@@ -1,0 +1,6 @@
+add animation and links to the navbar
+about me heading near the mountains
+about me page
+add proper links and images in project section
+add a contact page
+add scroll effect (maybe)

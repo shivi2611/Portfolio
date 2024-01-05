@@ -1,0 +1,15 @@
+.pics{
+    position:relative;
+    z-index: 1;
+    width:100%;
+}
+.text{
+    position:absolute;
+    top:75%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index: 2;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}

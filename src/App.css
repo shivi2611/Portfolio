@@ -1,0 +1,20 @@
+html {
+  scroll-behavior: smooth;
+}
+*::-webkit-scrollbar{display:none}
+*{
+  font-family: 'Centra', sans-serif;
+  color:white;
+}
+.app{
+  position: relative;
+  z-index: 1;
+  background-image: url("./assets/images/banner-bg.png");
+  background-position: top center;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+
+

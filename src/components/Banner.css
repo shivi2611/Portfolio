@@ -1,0 +1,40 @@
+.banner{
+    width:100%
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+}
+.banner-img{
+   object-fit: contain;
+    width: 100%;
+    animation: updown 8s linear infinite;
+}
+.banner-text{
+    color:white;
+    line-height: 1.7rem;
+}
+.banner-about{
+    margin-top: 2rem;
+}
+.welcome-message{
+    display: inline-block;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+}
+.banner-heading{
+    font-weight: 700;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
